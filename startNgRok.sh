@@ -1,3 +1,4 @@
+cd /home/mastemind/Workspaces/portForwarding/
 /home/mastemind/Workspaces/portForwarding/ngrok tcp 22 -log=stdout > /home/mastemind/Workspaces/portForwarding/ngrok.log &
 sleep 20
 python printRandomUrl.py > randomLink.out
