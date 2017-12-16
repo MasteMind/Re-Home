@@ -3,3 +3,15 @@ Printing th working directory!
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   379  100   379    0     0   198k      0 --:--:-- --:--:-- --:--:--  370k
+[master 1058455] TIME:+11:35:53
+ 8 files changed, 45 insertions(+), 37 deletions(-)
+ mode change 100644 => 100755 README.md
+ mode change 100644 => 100755 execution.log
+ mode change 100644 => 100755 ngrok-stable-linux-amd64.zip
+ rewrite ngrok.log (67%)
+ mode change 100644 => 100755
+ mode change 100644 => 100755 printRandomUrl.py
+ mode change 100644 => 100755 tunnels.json
+To https://mastemind:sh28461379@github.com/MasteMind/Re-Home.git
+   35f4702..1058455  master -> master
+Branch master set up to track remote branch master from https://mastemind:sh28461379@github.com/MasteMind/Re-Home.git.
