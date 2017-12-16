@@ -1,4 +1,5 @@
-python: can't open file 'printRandomUrl.py': [Errno 2] No such file or directory
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
-fatal: Not a git repository (or any of the parent directories): .git
+Printing th working directory!
+/home/mastemind/Workspaces/portForwarding
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   379  100   379    0     0   198k      0 --:--:-- --:--:-- --:--:--  370k
