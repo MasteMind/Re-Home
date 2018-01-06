@@ -1,18 +1,11 @@
-t=2018-01-06T13:14:20+0530 lvl=warn msg="failed to get home directory, using $HOME instead" err="user: Current not implemented on linux/amd64" $HOME=/root
-t=2018-01-06T13:14:20+0530 lvl=info msg="open config file" path=/home/mastemind/.ngrok2/ngrok.yml err=nil
-t=2018-01-06T13:14:20+0530 lvl=info msg="run component" obj=controller comp="signal handler"
-t=2018-01-06T13:14:20+0530 lvl=info msg="run component" obj=controller comp="memory storage"
-t=2018-01-06T13:14:20+0530 lvl=info msg="run component" obj=controller comp=web
-t=2018-01-06T13:14:20+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
-t=2018-01-06T13:14:20+0530 lvl=info msg="run component" obj=controller comp=updater
-t=2018-01-06T13:14:20+0530 lvl=info msg="run component" obj=controller comp="Tunnel session"
-t=2018-01-06T13:14:20+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:20+0530 lvl=warn msg="failed to check for update" obj=updater err="Post https://update.equinox.io/check: dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:21+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:22+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="Get https://dns.google.com/resolve?cd=true&name=tunnel.us.ngrok.com&type=A: dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:24+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="Get https://s3.amazonaws.com/dns.ngrok.com/tunnel.json: dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:27+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:32+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:39+0530 lvl=eror msg="failed to reconnect session" obj=csess id=e3ba8f8877dc err="Get https://dns.google.com/resolve?cd=true&name=tunnel.us.ngrok.com&type=A: dial tcp 10.0.0.1:443: getsockopt: network is unreachable"
-t=2018-01-06T13:14:40+0530 lvl=info msg=start pg=/api/tunnels id=0f85628be153de38
-t=2018-01-06T13:14:40+0530 lvl=info msg=end pg=/api/tunnels id=0f85628be153de38 status=200 dur=546.358µs
+t=2018-01-06T13:18:38+0530 lvl=warn msg="failed to get home directory, using $HOME instead" err="user: Current not implemented on linux/amd64" $HOME=/root
+t=2018-01-06T13:18:38+0530 lvl=info msg="open config file" path=/home/mastemind/.ngrok2/ngrok.yml err=nil
+t=2018-01-06T13:18:38+0530 lvl=info msg="run component" obj=controller comp="signal handler"
+t=2018-01-06T13:18:38+0530 lvl=info msg="run component" obj=controller comp=updater
+t=2018-01-06T13:18:38+0530 lvl=info msg="run component" obj=controller comp=web
+t=2018-01-06T13:18:38+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2018-01-06T13:18:38+0530 lvl=info msg="run component" obj=controller comp="memory storage"
+t=2018-01-06T13:18:38+0530 lvl=info msg="run component" obj=controller comp="Tunnel session"
+t=2018-01-06T13:18:48+0530 lvl=eror msg="failed to reconnect session" obj=csess id=1fe01a6474cc err="dial tcp: i/o timeout"
+t=2018-01-06T13:18:58+0530 lvl=info msg=start pg=/api/tunnels id=4621d34bd7fbc87d
+t=2018-01-06T13:18:58+0530 lvl=info msg=end pg=/api/tunnels id=4621d34bd7fbc87d status=200 dur=447.481µs
