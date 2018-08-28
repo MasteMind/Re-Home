@@ -1,11 +1,11 @@
-t=2018-08-18T03:55:42+0530 lvl=warn msg="failed to get home directory, using $HOME instead" err="user: Current not implemented on linux/amd64" $HOME=/root
-t=2018-08-18T03:55:42+0530 lvl=info msg="open config file" path=/home/mastemind/.ngrok2/ngrok.yml err=nil
-t=2018-08-18T03:55:42+0530 lvl=info msg="run component" obj=controller comp="signal handler"
-t=2018-08-18T03:55:42+0530 lvl=info msg="run component" obj=controller comp="Tunnel session"
-t=2018-08-18T03:55:42+0530 lvl=info msg="run component" obj=controller comp=updater
-t=2018-08-18T03:55:42+0530 lvl=info msg="run component" obj=controller comp="memory storage"
-t=2018-08-18T03:55:42+0530 lvl=info msg="run component" obj=controller comp=web
-t=2018-08-18T03:55:42+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
-t=2018-08-18T03:55:52+0530 lvl=eror msg="failed to reconnect session" obj=csess id=f04831308b87 err="dial tcp: i/o timeout"
-t=2018-08-18T03:56:02+0530 lvl=info msg=start pg=/api/tunnels id=c5b5f7e9a7a8dcf8
-t=2018-08-18T03:56:02+0530 lvl=info msg=end pg=/api/tunnels id=c5b5f7e9a7a8dcf8 status=200 dur=528.157µs
+t=2018-08-28T15:44:03+0530 lvl=warn msg="failed to get home directory, using $HOME instead" err="user: Current not implemented on linux/amd64" $HOME=/root
+t=2018-08-28T15:44:03+0530 lvl=info msg="open config file" path=/home/mastemind/.ngrok2/ngrok.yml err=nil
+t=2018-08-28T15:44:03+0530 lvl=info msg="run component" obj=controller comp="Tunnel session"
+t=2018-08-28T15:44:03+0530 lvl=info msg="run component" obj=controller comp="signal handler"
+t=2018-08-28T15:44:03+0530 lvl=info msg="run component" obj=controller comp=updater
+t=2018-08-28T15:44:03+0530 lvl=info msg="run component" obj=controller comp="memory storage"
+t=2018-08-28T15:44:03+0530 lvl=info msg="run component" obj=controller comp=web
+t=2018-08-28T15:44:03+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040
+t=2018-08-28T15:44:13+0530 lvl=eror msg="failed to reconnect session" obj=csess id=21844a6ea157 err="dial tcp: i/o timeout"
+t=2018-08-28T15:44:23+0530 lvl=info msg=start pg=/api/tunnels id=22edb111fc563232
+t=2018-08-28T15:44:23+0530 lvl=info msg=end pg=/api/tunnels id=22edb111fc563232 status=200 dur=471.074µs
